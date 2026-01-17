@@ -1,0 +1,77 @@
+{
+  "spider": "",
+  "sites": [
+    {
+      "key": "movie360",
+      "name": "360影視",
+      "type": 4,
+      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/movie360.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "iqiyi",
+      "name": "愛奇藝",
+      "type": 4,
+      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/愛奇藝.js",
+      "searchable": 2,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "youku",
+      "name": "優酷視頻",
+      "type": 4,
+      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/優酷視頻.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "tengxun",
+      "name": "騰訊視頻",
+      "type": 4,
+      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/騰訊視頻.js",
+      "searchable": 2,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "mgtv",
+      "name": "芒果TV",
+      "type": 4,
+      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/芒果.js",
+      "searchable": 2,
+      "quickSearch": 0,
+      "changeable": 0
+    }
+  ],
+  "parses": [
+    {
+      "name": "芒果解析",
+      "type": 4,
+      "url": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/jx/mg1.js"
+    },
+    {
+      "name": "騰訊解析1",
+      "type": 4,
+      "url": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/jx/tx1.js"
+    },
+    {
+      "name": "通用解析1",
+      "type": 4,
+      "url": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/jx/jx1.js"
+    },
+    {
+      "name": "通用解析2",
+      "type": 4,
+      "url": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/jx/jx2.js"
+    },
+    {
+      "name": "岁岁解析",
+      "type": 4,
+      "url": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/jx/fish.js"
+    }
+  ]
+}
