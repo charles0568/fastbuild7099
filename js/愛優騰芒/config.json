@@ -3,45 +3,45 @@
   "sites": [
     {
       "key": "movie360",
-      "name": "360影視",
-      "type": 4,
-      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/movie360.js",
+      "name": "🥇360影視",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/movie360_catvod.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
       "key": "iqiyi",
-      "name": "愛奇藝",
-      "type": 4,
-      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/愛奇藝.js",
+      "name": "🥇愛奇藝",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/iqiyi_catvod.js",
       "searchable": 2,
       "quickSearch": 0,
       "changeable": 0
     },
     {
       "key": "youku",
-      "name": "優酷視頻",
-      "type": 4,
-      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/優酷視頻.js",
+      "name": "🥇優酷視頻",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/youku_catvod.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
       "key": "tengxun",
-      "name": "騰訊視頻",
-      "type": 4,
-      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/騰訊視頻.js",
+      "name": "🥇騰訊視頻",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/tengxun_catvod.js",
       "searchable": 2,
       "quickSearch": 0,
       "changeable": 0
     },
     {
       "key": "mgtv",
-      "name": "芒果TV",
-      "type": 4,
-      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/芒果.js",
+      "name": "🥇芒果TV",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/mgtv_catvod.js",
       "searchable": 2,
       "quickSearch": 0,
       "changeable": 0
@@ -49,29 +49,19 @@
   ],
   "parses": [
     {
-      "name": "芒果解析",
-      "type": 4,
-      "url": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/jx/mg1.js"
+      "name": "虾米解析",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
     },
     {
-      "name": "腾讯解析1",
-      "type": 4,
-      "url": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/jx/tx1.js"
+      "name": "M3U8解析",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
     },
     {
-      "name": "通用解析1",
-      "type": 4,
-      "url": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/jx/jx1.js"
-    },
-    {
-      "name": "通用解析2",
-      "type": 4,
-      "url": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/jx/jx2.js"
-    },
-    {
-      "name": "岁岁解析",
-      "type": 4,
-      "url": "https://raw.githubusercontent.com/charles0568/fastbuild7099/main/js/愛優騰芒/jx/fish.js"
+      "name": "夜幕解析",
+      "type": 0,
+      "url": "https://www.yemu.xyz/?url="
     }
   ]
 }
